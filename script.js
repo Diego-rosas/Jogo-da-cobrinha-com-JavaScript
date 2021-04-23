@@ -46,7 +46,7 @@ function iniciarJogo(){
     if(snake[0].y < 0 && direction == "up") snake[0].y = 16 * box;
 
     for(i = 1; 1 < snake.length; i++){
-        if(snke[0].x == snake[1].x && snke[0].y == snake[1].y){
+        if(snke[0].x == snake[i].x && snke[0].y == snake[i].y){
             clearInterval(jogo);
             alert(" GAME OVER :( ");
         }       
